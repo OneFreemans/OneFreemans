@@ -17,7 +17,7 @@
 
 ---
 
-### 📌 Мои проект
+### 📌 Мои проекты
 
 #### 🤖 [Telegram-бот «Олег»](https://github.com/OneFreemans/voice-assistant-server)
 Асинхронный Telegram-бот с поддержкой:
