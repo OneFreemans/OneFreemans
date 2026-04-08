@@ -1,20 +1,23 @@
 ## 👋 Привет, я Павел (OneFreemans)
 
-**Python-разработчик** | **Backend Developer** | **Создаю ботов и ассистентов**
+**Python-разработчик** | **Backend Developer** 
 
 ---
 
 ### 🛠️ Мои навыки
 
 - **Языки:** Python, SQL
-- **Фреймворки:** asyncio, FastAPI, aiogram, telebot
-- **Базы данных:** SQLite
-- **Инструменты:** Docker, Git, Linux, REST API
-- **Другое:** Telegram API, Яндекс.API, WebSockets
+- **Асинхронность:** asyncio, create_task, фоновые задачи
+- **Веб-фреймворки:** FastAPI (эндпоинты /health, /stats), REST API
+- **Боты:** aiogram, telebot, Telegram API
+- **Контейнеризация и деплой:** Docker (многоступенчатая сборка, кеширование), supervisord, развертывание на Linux-сервере
+- **Базы данных и хранилища:** SQLite, файловое хранилище (JSON)
+- **Инструменты:** Git, Linux, pytest, логирование
+- **Интеграции:** DeepSeek API, Яндекс.API, WebSockets
 
 ---
 
-### 📌 Мои проекты
+### 📌 Мои проект
 
 #### 🤖 [Telegram-бот «Олег»](https://github.com/OneFreemans/voice-assistant-server)
 Асинхронный Telegram-бот с поддержкой:
@@ -23,6 +26,7 @@
 - общения с ИИ (DeepSeek API)
 - мониторинга через FastAPI (`/health`, `/stats`)
 - **Docker** (контейнеризация)
+- Бот и API запущены в одном **Docker**-контейнере через `supervisord`, развернуты на удаленном сервере.
 
 #### 🎤 [Голосовой ассистент «Олег»](https://github.com/OneFreemans/voice-assistant)
 Локальный ассистент с голосовым управлением:
