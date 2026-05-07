@@ -13,7 +13,7 @@
 - **Контейнеризация и деплой:** Docker (многоступенчатая сборка, кеширование), supervisord, развертывание на Linux-сервере
 - **Базы данных и хранилища:** SQLite, файловое хранилище (JSON)
 - **Инструменты:** Git, Linux, pytest, логирование
-- **Интеграции:** DeepSeek API, Яндекс.API, WebSockets
+- **Интеграции:** DeepSeek API, Яндекс.API, WebSockets, VK API
 
 ---
 
@@ -30,8 +30,8 @@
 
 #### 🎤 [Голосовой ассистент «Олег»](https://github.com/OneFreemans/voice-assistant)
 Локальный ассистент с голосовым управлением:
-- интеграция с VK, Яндекс.Умным домом
-- распознавание речи, GUI на Tkinter
+- интеграция с VK, Яндекс.Умным домом, DeepSeek
+- распознавание речи, GUI на CustomTkinter
 - многопоточность, логирование
 
 #### 🎧 [Визуализатор направления звука](https://github.com/OneFreemans/sound-direction-visualizer)
